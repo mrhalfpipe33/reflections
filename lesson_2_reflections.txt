@@ -1,26 +1,35 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-When a repository is initialized, meta data is created such as the folder .git
-that cannot be seen in file explorer. This meta data allows for the commits
-to work.
+  When a repository is initialized, meta data is created such as the folder .git
+  that cannot be seen in file explorer. This meta data allows for the commits
+  to work.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
-The staging area is not actually a place where the files are stored, it is
-rather a place where the names of the files are stored which allows us to
-quickly commit any files in the staging area whenever we want to.
+  The staging area is not actually a place where the files are stored, it is
+  rather a place where the names of the files are stored which allows us to
+  quickly commit any files in the staging area whenever we want to.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+  I can put a file into the staging area and I can commit it once I have done
+  one logical change.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+
+
 How do the diagrams help you visualize the branch structure?
+
+
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+
+
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
