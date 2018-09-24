@@ -27,7 +27,9 @@ organized? How would branches help?
 
 How do the diagrams help you visualize the branch structure?
 
-
+  The diagrams make it easier to understand how the branches don't affect each
+  other and how detached head-state works where commits there are unreachable
+  unless you make another branch there.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
