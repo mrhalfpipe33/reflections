@@ -20,6 +20,9 @@ change?
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+  If I wanted to test out a very experimental feature in my code I may want to
+  make a new branch. This new branch could hold commits of this feature without
+  disturbing my commits for the base game.
 
 
 How do the diagrams help you visualize the branch structure?
