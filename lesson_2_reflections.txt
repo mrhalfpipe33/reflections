@@ -34,7 +34,11 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
-
+  When we merge two branches together, the changes of both branches get combined
+  with information about the original starting point. This allows GIT to know
+  which lines should be deleted and not. The diagram is drawn how it is because
+  the new merged commit has two parents, so there are two arrows going away
+  from it.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
