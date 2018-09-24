@@ -24,7 +24,6 @@ organized? How would branches help?
   make a new branch. This new branch could hold commits of this feature without
   disturbing my commits for the base game.
 
-
 How do the diagrams help you visualize the branch structure?
 
   The diagrams make it easier to understand how the branches don't affect each
@@ -42,3 +41,8 @@ the diagram the way we do?
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+  Git's automatic merging is faster than manually merging, but sometimes there
+  are merge conflicts. In these cases you have to go into the code and choose
+  what to keep and what to delete, but git merge tells you which lines are in
+  conflict making it easier to manually merge.
