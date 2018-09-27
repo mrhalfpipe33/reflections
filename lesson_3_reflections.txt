@@ -26,12 +26,16 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    It makes there be less merge conflicts, so your code will work better
+    because the code is the most up to date.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    One could collaborate on Google Docs. This would be easier because I
+    wouldn't have to push and pull every time I make a change, but finding
+    code errors would be more difficult because docs updates all the time rather
+    than every logical change. Also docs can't run code, it can merely store text.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
