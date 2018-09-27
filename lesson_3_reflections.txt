@@ -40,4 +40,7 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    I may want to make changes in a separate branch if I am working with someone
+    else on a project, and I want them to look at my code before it become part
+    of the master branch. I can push to a different branch which they can look
+    at, and then if the code is good, the new branch, and master can be merged.
